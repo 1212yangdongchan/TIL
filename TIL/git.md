@@ -1,19 +1,19 @@
 ![Git logo](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FbeqB5p%2FbtqAcMtfn4Z%2FDXlthgM7hvTr5FRR7UrQl0%2Fimg.png)
-# Git
+# <span style='color:#2D3748;background-color:#fff5b1'>Git</span>
 >Git의 개념
 **Git**이란 분산형 버전관리 시스템의 한 종류이며, 빠른 수행 속도에 중점을 둔다.
 
-## Git의 필요성
+## <span style='color:#2D3748;background-color:#fff5b1'>Git의 필요성</span>
 
   >나와 내 동료가 같은 웹사이트에서 동시에 같은 'A'페이지를 업데이트하고 있을때 무언갈 변경하고 저장한 다음 웹사이트에 'A'페이지를 업로드 한다. 이때 동료가 동시에 'A'페이지에서 작업을 할 때 문제가 발생합니다. 만약 확인하지 않고 동시에 작업을 한다면 **누군가의 작업은 겹쳐 쓰여질 것이고 지워질 것이기 때문**이다.
 Git은 이런 일들을 사전에 방지해주고, 나와 동료는 같은 페이지에 각자 수정사항을 업로드 할 수 있고, 두개의 복사본을 저장한다.
 ___
-# Github의 장점
+# <span style='color:#2D3748;background-color:#fff5b1'>Github의 장점</span>
 - 소스 코드를 주고 받을 필요 없이, 같은 파일을 여러 명이 동시에 작업하는 **병렬 개발**이 가능하다.
 - 분산 버전 관리이기 때문에 **인터넷이 연결되지 않은 곳에서도 개발을 진행**할 수 있고, 중앙 저장소가 날라가 버려도 원상복구할 수 있다.
 - 팀 프로젝트가 아닌, 개인 프로젝트일지라도 Git을 통해 버전 관리를 하면 체계적인 개발이 가능해지고, 프로그램이나 패치를 배포하는 과정도 간단해진다.
 ___
-# 사전지식  1. 
+# <span style="color:red">사전지식  1.</span> 
 Github에서 가장 중요한 두가지
 - commit
 ```
@@ -24,7 +24,7 @@ Github에서 가장 중요한 두가지
 파일을 추가하거나 변경 내용을 원격 저장소에 업로드하는 작업
 ```
 ___
-# 사전지식 2.
+# <span style="color:red">사전지식 2.</span>
 - 로컬저장소와원격저장소
 >1. **저장소**는
 파일이나 디렉토리를 저장하는 장소입니다. 변경 이력을 관리하고자하는 디렉토리 등을 저장소의 관리하에 두는 것으로, 그 디렉토리에 있는 파일 등의 변경 내역을 기록 할 수 있습니다.
@@ -33,7 +33,7 @@ ___
 고 서버 등 네트워크에 있는 **"원격 저장소"**
 의 2개소에 있습니다. 기본적으로 로컬 저장소에서 작업을 수행하고 그 결과를 원격 저장소에 저장합니다.
 ___
-# 사전지식 3.
+# <span style="color:red">사전지식 3.
 - branch
 ```
 소프트웨어 개발은 현재 출시하고있는 버전의 유지 보수를하면서 
@@ -42,7 +42,7 @@ ___
 Github에는 branch라는 기능이 있습니다.
 ```
 ___
-# Git기본 용어
+# <span style='color:#2D3748;background-color:#fff5b1'>Git기본 용어
 1. Working Directory
 > 저장소의 어느 한 시점을 바라보는
 **작업자의 현재 시점**.
@@ -90,7 +90,7 @@ ___
 2. **커밋** : git commit -m "해당 커밋에 남기고 싶은 메모"
 3. **푸시** : 그냥 git push만 하면 된다.
 ___
-# + Readme란?
+# + <span style='color:#2D3748;background-color:#fff5b1'>Readme란?
 >Github에 프로젝트를 올릴 때, 프로젝트에 대한 설명뿐 아니라 사용 방법, LICENSE 등의 내용을 기술하는 파일입니다.
 ## Readme를 작성해야 하는 이유?
 어떤 프로그램을 사용하거나 오픈소스를 참고하기 위해 Github Repository에 들어간다면, 가장 먼저 확인하는 것이 Readme파일입니다.
@@ -99,23 +99,23 @@ ___
 - 나중에 다시 내가 프로젝트를 다시 열었을 때 떠올리기 용이하기 위해
 **Readme**를 잘 작성해 둘 필요가 있다.
 ___
-# 일반적인 Readme 구조
-1. 프로젝트 Description
+# 일반적인 Readme <span style='color:#2D3748;background-color:#f6f8fa'>구조
+1. <span style='color:#2D3748;background-color:#fff5b1'>프로젝트 Description
 - 프로젝트 명
 - 어떤 프로젝트인지 소개
-2. 프로젝트 정보
+2. <span style='color:#2D3748;background-color:#f1f8ff'>프로젝트 정보
 - 설치
 - 컴파일 방법, 사용 환경, 브라우저 서포트
 - 간단한 사용 방법 및 예제
-3. Contribute
+3. <span style='color:#2D3748;background-color:#ffdce0'>Contribute
 - 다른 사람들이 코드에 Contribute하기 쉽도록 설명
 - 어떤 류의 Contribute를 원하는지 또는 Contributing 규칙등을 적을 수도 있다.
-4. LICENSE
+4. <span style='color:#2D3748;background-color:#dcffe4'>LICENSE
 - 라이선스 : 저작물의 수정 배포에 대한 권한이나 저작권들에 대한 조항들
 - 보통 MIT를 많이 사용하고 BSD 라이선스도 많이 사용한다.
-5. 외부리소스 정보
+5. <span style='color:#2D3748;background-color:#f5f'>외부리소스 정보
 - 프로젝트에 포함된 외부 코드나 리소스 정보
-6. Code Status
+6. <span style='color:#2D3748;background-color:#F7DDBE'>Code Status
 - Shield라는 것을 사용하여 [build|passing]과 같은 정보를 줄 수 있다.
 - 프로젝트가 커질수록 도움이 되는 부분
 ___
