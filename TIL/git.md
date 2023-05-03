@@ -122,5 +122,5 @@ ___
 ___
 # 이상 깃 정리를 마치도록 하겠습니다!!
 ___
-### Click[깃 공부 참고자료(velog링크)](https://velog.io/@2ujin/%EB%82%B4-%EB%A7%98%EB%8C%80%EB%A1%9C-%EC%9E%91%EC%84%B1%ED%95%98%EB%8A%94-TIL-9sk5ujmvv7)
-### Click[깃, 깃허브 공부 참고자료(유튜브 링크)](https://www.youtube.com/watch?v=lelVripbt2M)
+### Click here ->[깃 공부 참고자료(velog링크)](https://velog.io/@2ujin/%EB%82%B4-%EB%A7%98%EB%8C%80%EB%A1%9C-%EC%9E%91%EC%84%B1%ED%95%98%EB%8A%94-TIL-9sk5ujmvv7)
+### Click here ->[깃, 깃허브 공부 참고자료(유튜브 링크)](https://www.youtube.com/watch?v=lelVripbt2M)
