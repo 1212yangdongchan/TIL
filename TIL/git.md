@@ -1,14 +1,15 @@
 ![Git logo](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FbeqB5p%2FbtqAcMtfn4Z%2FDXlthgM7hvTr5FRR7UrQl0%2Fimg.png)
-# <span style='color:#2D3748;background-color:#fff5b1'>Git</span>
+# Git</span>
 >Git의 개념
-**Git**이란 분산형 버전관리 시스템의 한 종류이며, 빠른 수행 속도에 중점을 둔다.
+**Git**이란 분산형 버전관리 시스템의 한 종류이며,               
+ 빠른 수행 속도에 중점을 둔다.
 
-## <span style='color:#2D3748;background-color:#fff5b1'>Git의 필요성</span>
+## Git의 필요성</span>
 
   >나와 내 동료가 같은 웹사이트에서 동시에 같은 'A'페이지를 업데이트하고 있을때 무언갈 변경하고 저장한 다음 웹사이트에 'A'페이지를 업로드 한다. 이때 동료가 동시에 'A'페이지에서 작업을 할 때 문제가 발생합니다. 만약 확인하지 않고 동시에 작업을 한다면 **누군가의 작업은 겹쳐 쓰여질 것이고 지워질 것이기 때문**이다.
 Git은 이런 일들을 사전에 방지해주고, 나와 동료는 같은 페이지에 각자 수정사항을 업로드 할 수 있고, 두개의 복사본을 저장한다.
 ___
-# <span style='color:#2D3748;background-color:#fff5b1'>Github의 장점</span>
+# Github의 장점</span>
 - 소스 코드를 주고 받을 필요 없이, 같은 파일을 여러 명이 동시에 작업하는 **병렬 개발**이 가능하다.
 - 분산 버전 관리이기 때문에 **인터넷이 연결되지 않은 곳에서도 개발을 진행**할 수 있고, 중앙 저장소가 날라가 버려도 원상복구할 수 있다.
 - 팀 프로젝트가 아닌, 개인 프로젝트일지라도 Git을 통해 버전 관리를 하면 체계적인 개발이 가능해지고, 프로그램이나 패치를 배포하는 과정도 간단해진다.
@@ -42,20 +43,20 @@ ___
 Github에는 branch라는 기능이 있습니다.
 ```
 ___
-# <span style='color:#2D3748;background-color:#fff5b1'>Git기본 용어
-1. Working Directory
+# Git기본 용어
+## 1. **Working Directory**
 > 저장소의 어느 한 시점을 바라보는
 **작업자의 현재 시점**.
 
 -  파일 수정, 저장 등의 작업을 하는 디렉터리로, '작업 디렉터리'라고도 한다.
 ___
-2. Repository
+## 2. **Repository**
 - Remote Repsitory
 >파일이 원격 저장소 전용 서버에서 관리되며 여러 사람이 함께 공유하기 위한 저장소다.
-- Local Repsitory
+- **Local Repsitory**
 >내 PC에 파일이 저장되는 개인 전용 저장소다.
 ___
-3. Snapshot
+## 3. **Snapshot**
 >스냅샷을 통해 특정 시점에 어떤 파일에 어떤 내용이 기록되어 있었는지, 폴더 구조는 어떠했는지, 어떤 파일이 존재했는지 등 저장소의 모든 **정보**를 확인할 수 있다.
 - 새로운 버전을 기록하기 위한 명령인 커밋을 실행하면 스냅샷이 저장된다.
 
@@ -63,13 +64,13 @@ ___
 2. 수정된 파일을 모아 정리하여 만든 Snapshot을 Staging디렉터리에 추가하고 저장
 3. Git디렉터리에 저장
 ___
-4. commit
+## 4. **commit**
 >현재 변경된 작업 상태를 점검을 마치면 확정하고 저장소에 저장하는 작업
 ___
-5. Checkout
+## 5. **Checkout**
 >이전 버젼 작업을 불러오는 것.
 ___
-6. **Branch**
+## 6. **Branch**
 >가지 또는 분기점을 의미하며, 작업을 할때에 현재 상태를 복사하여 Branch에서 작업을 한 후에 완전하다 싶을때 Merge를 하여 작업을 한다.
 
 - **Merge**
@@ -90,7 +91,7 @@ ___
 2. **커밋** : git commit -m "해당 커밋에 남기고 싶은 메모"
 3. **푸시** : 그냥 git push만 하면 된다.
 ___
-# + <span style='color:#2D3748;background-color:#fff5b1'>Readme란?
+# + Readme란?
 >Github에 프로젝트를 올릴 때, 프로젝트에 대한 설명뿐 아니라 사용 방법, LICENSE 등의 내용을 기술하는 파일입니다.
 ## Readme를 작성해야 하는 이유?
 어떤 프로그램을 사용하거나 오픈소스를 참고하기 위해 Github Repository에 들어간다면, 가장 먼저 확인하는 것이 Readme파일입니다.
@@ -99,23 +100,23 @@ ___
 - 나중에 다시 내가 프로젝트를 다시 열었을 때 떠올리기 용이하기 위해
 **Readme**를 잘 작성해 둘 필요가 있다.
 ___
-# 일반적인 Readme <span style='color:#2D3748;background-color:#f6f8fa'>구조
-1. <span style='color:#2D3748;background-color:#fff5b1'>프로젝트 Description
+# 일반적인 Readme 구조
+1. >프로젝트 Description
 - 프로젝트 명
 - 어떤 프로젝트인지 소개
-2. <span style='color:#2D3748;background-color:#f1f8ff'>프로젝트 정보
+2. >프로젝트 정보
 - 설치
 - 컴파일 방법, 사용 환경, 브라우저 서포트
 - 간단한 사용 방법 및 예제
-3. <span style='color:#2D3748;background-color:#ffdce0'>Contribute
+3. >Contribute
 - 다른 사람들이 코드에 Contribute하기 쉽도록 설명
 - 어떤 류의 Contribute를 원하는지 또는 Contributing 규칙등을 적을 수도 있다.
-4. <span style='color:#2D3748;background-color:#dcffe4'>LICENSE
+4. >LICENSE
 - 라이선스 : 저작물의 수정 배포에 대한 권한이나 저작권들에 대한 조항들
 - 보통 MIT를 많이 사용하고 BSD 라이선스도 많이 사용한다.
-5. <span style='color:#2D3748;background-color:#f5f'>외부리소스 정보
+5. 외부리소스 정보
 - 프로젝트에 포함된 외부 코드나 리소스 정보
-6. <span style='color:#2D3748;background-color:#F7DDBE'>Code Status
+6. >Code Status
 - Shield라는 것을 사용하여 [build|passing]과 같은 정보를 줄 수 있다.
 - 프로젝트가 커질수록 도움이 되는 부분
 ___
